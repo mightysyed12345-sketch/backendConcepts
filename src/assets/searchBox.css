@@ -1,0 +1,97 @@
+.SearchBox {
+  padding: 24px;
+  border: 1px solid #e7edf5;
+  border-radius: 18px;
+  background: rgb(255 255 255 / 88%);
+  box-shadow: 0 12px 34px rgb(34 66 112 / 7%);
+  text-align: left;
+}
+
+.SearchBox h2 {
+  margin: 0;
+  color: #1b2c45;
+  font-size: 17px;
+  font-weight: 700;
+  letter-spacing: -0.015em;
+}
+
+.search-description {
+  margin: 4px 0 18px;
+  color: #8491a3;
+  font-size: 13px;
+}
+
+.SearchBox form {
+  display: flex;
+  align-items: stretch;
+  gap: 12px;
+}
+
+.SearchBox .MuiTextField-root {
+  flex: 1;
+}
+
+.SearchBox .MuiOutlinedInput-root {
+  min-height: 52px;
+  border-radius: 11px;
+  background: #f8fafd;
+  color: #192b45;
+}
+
+.SearchBox .MuiOutlinedInput-notchedOutline {
+  border-color: #e1e8f1;
+}
+
+.SearchBox .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+  border-color: #a9c4e9;
+}
+
+.SearchBox .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-width: 1px;
+  border-color: #4e8fe8;
+}
+
+.SearchBox .MuiInputLabel-root {
+  color: #8390a2;
+}
+
+.SearchBox .MuiButton-root {
+  min-width: 118px;
+  padding: 0 20px;
+  border-radius: 11px;
+  background: linear-gradient(135deg, #397fe7, #2868d2);
+  box-shadow: 0 5px 12px rgb(47 112 216 / 22%);
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: none;
+}
+
+.SearchBox .MuiButton-root:hover {
+  background: linear-gradient(135deg, #2f73d9, #205bc2);
+  box-shadow: 0 7px 16px rgb(47 112 216 / 28%);
+}
+
+.search-error {
+  margin: 14px 0 0;
+  padding: 11px 13px;
+  border: 1px solid #f2c6c4;
+  border-radius: 10px;
+  background: #fff5f4;
+  color: #a43b37;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+@media (max-width: 520px) {
+  .SearchBox {
+    padding: 19px;
+  }
+
+  .SearchBox form {
+    flex-direction: column;
+  }
+
+  .SearchBox .MuiButton-root {
+    min-height: 48px;
+  }
+}
