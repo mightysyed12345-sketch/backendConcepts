@@ -3,7 +3,6 @@ import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import Chip from '@mui/material/Chip';
-
 export default function Infobox({ weather }) {
     const description = weather?.description?.toLowerCase() ?? '';
     const conditionIcon = description.includes('thunder')

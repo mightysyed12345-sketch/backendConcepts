@@ -65,9 +65,8 @@
   font-weight: 700;
   text-transform: none;
 }
-
 .SearchBox .MuiButton-root:hover {
-  background: linear-gradient(135deg, #2f73d9, #205bc2);
+  background: linear-gradient(135deg, #dcdfe4, #4deb67);
   box-shadow: 0 7px 16px rgb(47 112 216 / 28%);
 }
 

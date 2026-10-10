@@ -33,6 +33,34 @@ export default function App() {
         <p className="section-label">CURRENT CONDITIONS</p>
         <Infobox weather={weather} />
 
+        <section className="profile-card" aria-labelledby="kohli-heading">
+          <img
+            className="profile-photo"
+            src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Virat_Kohli_during_the_India_vs_Aus_4th_Test_match_at_Narendra_Modi_Stadium_on_09_March_2023.jpg"
+            alt="Virat Kohli during the India versus Australia Test match in 2023"
+            loading="lazy"
+          />
+          <div className="profile-copy">
+            <p className="eyebrow">Cricket spotlight</p>
+            <h2 id="kohli-heading">Virat Kohli</h2>
+            <p>
+              Virat Kohli is an Indian international cricketer from New Delhi,
+              known for his right-handed batting and consistent performances.
+              He has represented India across international formats and has
+              also captained the national team.
+            </p>
+            <a
+              className="photo-credit"
+              href="https://commons.wikimedia.org/wiki/File:Virat_Kohli_during_the_India_vs_Aus_4th_Test_match_at_Narendra_Modi_Stadium_on_09_March_2023.jpg"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Photo: Prime Minister&apos;s Office, Government Open Data License
+              (India)
+            </a>
+          </div>
+        </section>
+
         <footer className="page-footer">A little sunshine for wherever you are.</footer>
       </main>
     </div>
